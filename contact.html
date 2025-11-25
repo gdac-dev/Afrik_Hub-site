@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact | Afrik Hub INFORMATIK</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="logo.png" alt="Afrik Hub Logo" class="logo" />
+      <h1>
+        <span class="red">Afrik Hub</span> <span class="blue">INFORMATIK</span>
+      </h1>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="about.html">À propos</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HERO CONTACT -->
+    <section class="contact-hero fade-in">
+      <div class="contact-hero-text">
+        <h2>Entrons en contact</h2>
+        <p>
+          Besoin d’une assistance informatique, d’un site web, d’un dépannage ou
+          d’un devis ? Nous sommes disponibles pour vous accompagner rapidement.
+        </p>
+      </div>
+
+      <img
+        src="images/contact-banner.jpg"
+        alt="Contact Illustration"
+        class="contact-hero-img"
+      />
+    </section>
+
+    <!-- MAIN CONTACT SECTION -->
+    <section class="contact-wrapper fade-in">
+      <div class="contact-left">
+        <h3>Informations de contact</h3>
+
+        <div class="contact-info">
+          <div class="info-card">
+            <span class="icon">📞</span>
+            <p>+237 650 197 290</p>
+          </div>
+
+          <div class="info-card">
+            <span class="icon">📧</span>
+            <p>
+              <a href="mailto:afrik_hub2@gmail.com">afrik_hub2@gmail.com</a>
+            </p>
+          </div>
+
+          <div class="info-card">
+            <span class="icon">📍</span>
+            <p>Douala, Cameroun</p>
+          </div>
+        </div>
+
+        <h3>Réseaux sociaux</h3>
+        <div class="social-links">
+          <a href="#" class="social facebook">Facebook</a>
+          <a href="https://wa.me/237650197290" class="social whatsapp"
+            >WhatsApp</a
+          >
+          <a href="#" class="social linkedin">LinkedIn</a>
+        </div>
+      </div>
+
+      <!-- CONTACT FORM -->
+      <div class="contact-right">
+        <h3>Envoyer un message</h3>
+
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Votre Nom" required />
+          <input type="email" id="email" placeholder="Votre Email" required />
+          <textarea
+            id="message"
+            placeholder="Votre message…"
+            rows="5"
+            required
+          ></textarea>
+
+          <button type="submit" class="btn-primary">Envoyer</button>
+        </form>
+
+        <p class="form-success" id="formSuccess">
+          ✔ Votre message a été envoyé avec succès !
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <img src="logo.png" alt="Footer" class="footer-img" />
+      <div class="footer-details">
+        <span>📞 +237 650 197 290</span>
+        <span>RCCM: RC/DLN/2017/B/898</span>
+        <span>📍 DOUALA - CAMEROUN</span>
+        <span>NIU: M031718422860P</span>
+      </div>
+    </footer>
+
+    <script src="contact.js"></script>
+  </body>
+</html>
