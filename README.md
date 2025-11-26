@@ -55,20 +55,10 @@ This ensures that visiting /services automatically loads services.html.
 
 # Clone the repository:
 
-git clone https://github.com/gdac-dev/Afrik_Hub-site.git
-
-
-Open the project:
-
-cd Afrik_Hub-site
-
-
-Open index.html in your browser:
-
-open index.html
-
-
-Or drag and drop the file into your browser window.
+- git clone - https://github.com/gdac-dev/Afrik_Hub-site.git
+- Open the project: cd Afrik_Hub-site
+- Open index.html in your browser:
+- Open index.html, Or drag and drop the file into your browser window.
 
 ## 🚀 Deploy to Vercel
 
@@ -84,9 +74,7 @@ Ensure that vercel.json is included in your project root so Vercel can configure
 ## Manual Deployment
 
 - Go to https://vercel.com
-
 - Create a new project
-
 - Import this GitHub repository
 
 ## Deploy
@@ -110,8 +98,8 @@ Vercel will auto-detect this as a static site.
 
 ## 👨‍💻 Developer
 
-Website built and maintained by Afrik Hub INFORMATIK.
+Website built and maintained by Afrik Hub INFORMATIK.<br>
 For any collaboration or website project, feel free to contact us.
 
-## Live Demo -
-![Afrik_Hub](https://afrik-hub.vercel.app/)
+## Live Demo
+https://afrik-hub.vercel.app/
