@@ -51,12 +51,12 @@ This ensures that visiting /services automatically loads services.html.
 
 Clone the repository:
 
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/gdac-dev/Afrik_Hub-site.git
 
 
 Open the project:
 
-cd yourproject
+cd Afrik_Hub-site
 
 
 Open index.html in your browser:
