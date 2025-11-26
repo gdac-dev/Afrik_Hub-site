@@ -49,12 +49,11 @@ The `vercel.json` file enables clean URLs:
   ]
 }
 
-
 This ensures that visiting /services automatically loads services.html.
 
-🛠️ Run Locally
+## 🛠️ Run Locally
 
-Clone the repository:
+# Clone the repository:
 
 git clone https://github.com/gdac-dev/Afrik_Hub-site.git
 
@@ -71,47 +70,48 @@ open index.html
 
 Or drag and drop the file into your browser window.
 
-🚀 Deploy to Vercel
+## 🚀 Deploy to Vercel
 
 You can deploy the project manually or using Vercel CLI.
 
-Using Vercel CLI
-npm install -g vercel
-vercel deploy
+- Using Vercel CLI
+- npm install -g vercel
+- vercel deploy
 
 
 Ensure that vercel.json is included in your project root so Vercel can configure clean URLs.
 
-Manual Deployment
+## Manual Deployment
 
-Go to https://vercel.com
+- Go to https://vercel.com
 
-Create a new project
+- Create a new project
 
-Import this GitHub repository
+- Import this GitHub repository
 
-Deploy
+## Deploy
 
 Vercel will auto-detect this as a static site.
 
 🧰 Technologies Used
 
-HTML5
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
 
-CSS3
-
-JavaScript (Vanilla)
-
-Vercel Hosting
+## Vercel Hosting
 
 📞 Company Information – Afrik Hub INFORMATIK
 
-Phone: +237 650 197 290
-Location: Douala, Cameroun
-RCCM: RC/DLN/2017/B/898
-NIU: M031718422860P
+- Phone: +237 650 197 290
+- Location: Douala, Cameroun
+- RCCM: RC/DLN/2017/B/898
+- NIU: M031718422860P
 
-👨‍💻 Developer
+## 👨‍💻 Developer
 
 Website built and maintained by Afrik Hub INFORMATIK.
-For any collaboration or website project, feel free to contact us
+For any collaboration or website project, feel free to contact us.
+
+## Live Demo -
+![Afrik_Hub](https://afrik-hub.vercel.app/)
