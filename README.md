@@ -1,26 +1,30 @@
-📘 Afrik Hub INFORMATIK – Official Website
+# 📘 Afrik Hub INFORMATIK – Official Website
 
-This repository contains the source code of the official website of Afrik Hub INFORMATIK, an IT company offering computer maintenance, software development, networking, hosting, import-export, and professional digital services.
+![Vercel Deploy](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=flat&logo=vercel)  
+![HTML5](https://img.shields.io/badge/HTML5-orange?style=flat&logo=html5&logoColor=white)  
+![CSS3](https://img.shields.io/badge/CSS3-blue?style=flat&logo=css3&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=flat&logo=javascript&logoColor=white)
 
-The website is a static HTML/CSS/JS project deployed on Vercel, with support for clean URLs (example: /services instead of /services.html).
+This repository contains the source code of the official website of **Afrik Hub INFORMATIK**, an IT company offering computer maintenance, software development, networking, hosting, import-export, and professional digital services.
 
-🚀 Features
+The website is a **static HTML/CSS/JS project** deployed on **Vercel**, with support for **clean URLs** (example: `/services` instead of `/services.html`).
 
-Responsive and modern design
+---
 
-Smooth animations and fade-in effects
+## 🚀 Features
 
-Clean URL navigation (friendly SEO)
+- Responsive and modern UI  
+- Smooth fade-in animations  
+- Clean URL navigation (SEO-friendly)  
+- Hero banners on each page  
+- Service cards with professional layout  
+- Contact page with CTA buttons  
+- Deployed globally on Vercel CDN  
 
-Hero banners on each page
+---
 
-Professional service cards
+## 📁 Project Structure
 
-Contact page with call-to-action buttons
-
-Deployed on Vercel CDN for fast performance
-
-📁 Project Structure
 /
 ├── index.html
 ├── about.html
@@ -31,10 +35,11 @@ Deployed on Vercel CDN for fast performance
 ├── vercel.json
 └── /images
 
-🔗 Clean URL Support (Vercel)
+## 🔗 Clean URL Support (Vercel)
 
-To enable clean URLs, the project uses this vercel.json file:
+The `vercel.json` file enables clean URLs:
 
+```json```
 {
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
